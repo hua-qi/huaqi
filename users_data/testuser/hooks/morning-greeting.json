@@ -1,0 +1,23 @@
+{
+  "id": "morning-greeting",
+  "name": "晨间问候",
+  "description": "每天早上 9 点发送问候",
+  "trigger_type": "schedule",
+  "trigger_config": {
+    "type": "daily",
+    "time": "09:00"
+  },
+  "conditions": [],
+  "actions": [
+    {
+      "type": "send_message",
+      "params": {
+        "use_llm": true,
+        "prompt": "生成一个温暖的早晨问候，询问用户今天的计划"
+      }
+    }
+  ],
+  "enabled": true,
+  "last_triggered": null,
+  "trigger_count": 0
+}

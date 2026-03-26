@@ -1,0 +1,23 @@
+{
+  "id": "daily-summary",
+  "name": "每日总结",
+  "description": "晚上 10 点生成今日回顾",
+  "trigger_type": "schedule",
+  "trigger_config": {
+    "type": "daily",
+    "time": "22:00"
+  },
+  "conditions": [],
+  "actions": [
+    {
+      "type": "send_message",
+      "params": {
+        "use_llm": true,
+        "prompt": "基于今天的对话，生成一个今日回顾，包括：1.今天聊了什么 2.有什么收获 3.明天的建议"
+      }
+    }
+  ],
+  "enabled": true,
+  "last_triggered": null,
+  "trigger_count": 0
+}

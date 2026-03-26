@@ -1,0 +1,22 @@
+{
+  "id": "memory-insight",
+  "name": "记忆洞察",
+  "description": "创建新记忆时自动分析",
+  "trigger_type": "event",
+  "trigger_config": {
+    "event_type": "memory_created"
+  },
+  "conditions": [],
+  "actions": [
+    {
+      "type": "send_message",
+      "params": {
+        "use_llm": true,
+        "prompt": "刚记录了一条新记忆，简单确认并给出相关建议"
+      }
+    }
+  ],
+  "enabled": true,
+  "last_triggered": null,
+  "trigger_count": 0
+}
