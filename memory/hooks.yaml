@@ -1,29 +1,29 @@
 hooks:
-- actions:
-  - params:
-      message: 早安！今天有什么计划？
-    type: send_message
-  description: 每天早上 9 点发送问候
-  enabled: true
-  id: morning-greeting
-  last_triggered: null
-  name: 晨间问候
-  trigger_config:
-    time: 09:00
-    type: daily
-  trigger_count: 0
-  trigger_type: schedule
-- actions:
-  - params:
-      message: 今天过得怎么样？
-    type: send_message
-  description: 晚上 10 点生成今日回顾
-  enabled: false
-  id: daily-summary
-  last_triggered: null
-  name: 每日总结
-  trigger_config:
-    time: '22:00'
-    type: daily
-  trigger_count: 0
-  trigger_type: schedule
+  - actions:
+      - params:
+          message: 早安！今天有什么计划？
+        type: send_message
+    description: 每天早上 9 点发送问候
+    enabled: true
+    id: morning-greeting
+    last_triggered: null
+    name: 晨间问候
+    trigger_config:
+      time: 09:00
+      type: daily
+    trigger_count: 0
+    trigger_type: schedule
+  - actions:
+      - params:
+          message: 今天过得怎么样？
+        type: send_message
+    description: 晚上 10 点生成今日回顾
+    enabled: true
+    id: daily-summary
+    last_triggered: null
+    name: 每日总结
+    trigger_config:
+      time: "22:00"
+      type: daily
+    trigger_count: 0
+    trigger_type: schedule
