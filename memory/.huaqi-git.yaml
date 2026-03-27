@@ -1,5 +1,0 @@
-remote:
-  auto_push: true
-  branch: main
-  name: origin
-  url: https://github.com/hua-qi/huaqi.git
