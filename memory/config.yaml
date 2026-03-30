@@ -15,4 +15,7 @@ memory:
   max_session_memory: 100
   search_algorithm: hybrid
   search_top_k: 5
+modules:
+  network_proxy: true
+  wechat: true
 version: 0.1.0
