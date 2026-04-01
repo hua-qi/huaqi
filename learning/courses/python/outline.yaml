@@ -1,0 +1,42 @@
+created_at: '2026-03-31T18:51:00.795199'
+current_lesson: 1
+lessons:
+- completed_at: null
+  index: 1
+  status: pending
+  title: Python基础语法与数据类型
+- completed_at: null
+  index: 2
+  status: pending
+  title: 流程控制与逻辑运算
+- completed_at: null
+  index: 3
+  status: pending
+  title: 列表、字典等核心数据结构
+- completed_at: null
+  index: 4
+  status: pending
+  title: 函数定义与模块化编程
+- completed_at: null
+  index: 5
+  status: pending
+  title: 面向对象编程与类设计
+- completed_at: null
+  index: 6
+  status: pending
+  title: 异常处理与文件读写
+- completed_at: null
+  index: 7
+  status: pending
+  title: 常用标准库实战应用
+- completed_at: null
+  index: 8
+  status: pending
+  title: 迭代器、生成器等高级特性
+- completed_at: null
+  index: 9
+  status: pending
+  title: 虚拟环境与项目实战
+skill_name: python
+slug: python
+total_lessons: 9

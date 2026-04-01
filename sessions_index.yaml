@@ -164,3 +164,53 @@ sessions:
   thread_id: 6bf427f4-824f-4b43-af83-f2dd3fb5aa3d
   title: 你好，我是测试用户。
   turns: 1
+- created_at: '2026-03-30T19:46:33.478593'
+  last_active: '2026-03-30T19:46:33.478593'
+  thread_id: b83f3c0d-f339-461f-b593-f97e9eed234e
+  title: 我今天和谁聊天了？
+  turns: 1
+- created_at: '2026-03-30T19:55:13.253456'
+  last_active: '2026-03-30T22:09:35.531989'
+  thread_id: 62ac9ef5-57dd-4113-8dec-61351b50b326
+  title: 我今天在微信上都和谁聊天了
+  turns: 6
+- created_at: '2026-03-30T22:43:16.556500'
+  last_active: '2026-03-30T22:43:48.901472'
+  thread_id: 475ec11b-121d-49f3-a81a-1d80e61ab250
+  title: 我是谁
+  turns: 2
+- created_at: '2026-03-30T22:44:49.135695'
+  last_active: '2026-03-30T22:46:35.831461'
+  thread_id: 5364f867-14e8-4ee2-997d-ba2c7210c384
+  title: 我是谁
+  turns: 4
+- created_at: '2026-03-30T22:58:39.977432'
+  last_active: '2026-03-30T22:58:39.977432'
+  thread_id: 691af900-7284-4ec2-9b78-2818b7a2eeee
+  title: 如何在你这里导入工作相关文档呀？
+  turns: 1
+- created_at: '2026-03-30T23:30:44.426751'
+  last_active: '2026-03-30T23:36:12.336296'
+  thread_id: 7eda522b-3264-4623-8090-1852f7c8b559
+  title: 我们今天聊了什么？
+  turns: 3
+- created_at: '2026-03-31T15:40:54.983022'
+  last_active: '2026-03-31T15:40:54.983022'
+  thread_id: 7e2b9486-9442-4c86-8997-d3012d6848b6
+  title: 我是一名具有 3 年前端开发经验的前端开
+  turns: 1
+- created_at: '2026-03-31T16:15:03.161581'
+  last_active: '2026-03-31T16:15:03.161581'
+  thread_id: 64db4c12-7c12-42ec-9b67-79c5bb8ef08e
+  title: exi
+  turns: 1
+- created_at: '2026-03-31T19:01:42.419711'
+  last_active: '2026-03-31T21:45:15.003120'
+  thread_id: 315ada69-feb8-467f-9cf1-1f571a4b9439
+  title: 学习 python
+  turns: 14
+- created_at: '2026-03-31T23:54:34.246342'
+  last_active: '2026-04-01T00:56:04.885560'
+  thread_id: 63846458-79f7-4d23-80df-a4fbc1709204
+  title: 我的 python 学到哪了？
+  turns: 4
