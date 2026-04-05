@@ -249,3 +249,8 @@ sessions:
   thread_id: b9ed5a58-71cc-47d7-b8bd-32588cfff12a
   title: 分析一下我这个人
   turns: 1
+- created_at: '2026-04-05T23:47:24.880468'
+  last_active: '2026-04-05T23:47:45.996069'
+  thread_id: d40013b1-62a6-491e-a283-43e30ae50204
+  title: 今天的新闻有哪些？
+  turns: 2
