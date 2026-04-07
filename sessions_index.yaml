@@ -264,3 +264,8 @@ sessions:
   thread_id: d88a925d-80bb-4896-9cba-e16bc6dfd878
   title: 上周 X 上 AI 相关的热点都是什么
   turns: 4
+- created_at: '2026-04-07T16:35:57.429907'
+  last_active: '2026-04-07T16:35:57.429907'
+  thread_id: 041f733d-d5cf-4cc5-8f46-a587ad0554ff
+  title: 帮我搜罗一下上周 AI 领域相关的热点新
+  turns: 1
