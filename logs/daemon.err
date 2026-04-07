@@ -36,3 +36,4 @@ Traceback (most recent call last):
   File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/jobs.py", line 15, in _run_daily_report
     print(f"[MorningBrief] 生成失败: {e}")
 ModuleNotFoundError: No module named 'huaqi_src.reports'
+Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-08 08:00:00 CST)" was missed by 11:39:51.191319
