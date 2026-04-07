@@ -7,3 +7,32 @@ Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_we
 Run time of job "_run_learning_push (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-05 21:00:00 CST)" was missed by 13:59:50.779330
 Run time of job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-05 23:00:00 CST)" was missed by 11:59:50.784895
 Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-06 08:00:00 CST)" was missed by 2:59:50.788273
+Unable to restore job "world_fetch" -- removing it
+Traceback (most recent call last):
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/util.py", line 349, in ref_to_obj
+    obj = getattr(obj, name)
+AttributeError: module 'huaqi_src.scheduler.jobs' has no attribute '_run_world_fetch'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/jobstores/sqlalchemy.py", line 177, in _get_jobs
+    jobs.append(self._reconstitute_job(row.job_state))
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/jobstores/sqlalchemy.py", line 162, in _reconstitute_job
+    job.__setstate__(job_state)
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/job.py", line 304, in __setstate__
+    self.func = ref_to_obj(self.func_ref)
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/util.py", line 352, in ref_to_obj
+    raise LookupError(f"Error resolving reference {ref}: error looking up object")
+LookupError: Error resolving reference huaqi_src.scheduler.jobs:_run_world_fetch: error looking up object
+Run time of job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-06 23:00:00 CST)" was missed by 20:31:11.581811
+Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-07 08:00:00 CST)" was missed by 11:31:11.585568
+Run time of job "_run_weekly_report (trigger: cron[month='*', day='*', day_of_week='0', hour='21', minute='0'], next run at: 2026-04-13 21:00:00 CST)" was missed by 0:00:07.892744
+Run time of job "_run_learning_push (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-07 21:00:00 CST)" was missed by 0:00:07.898375
+Job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-07 23:00:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/jobs.py", line 15, in _run_daily_report
+    print(f"[MorningBrief] 生成失败: {e}")
+ModuleNotFoundError: No module named 'huaqi_src.reports'
