@@ -2,8 +2,15 @@ custom: {}
 data_dir: /Users/lianzimeng/workspace/huaqi
 interface_language: zh
 interface_theme: default
-llm_default_provider: openai
+llm_default_provider: deepseek
 llm_providers:
+  deepseek:
+    api_base: https://api.deepseek.com
+    api_key: sk-da0fc98c4fd540c7a47a90d9cf5df765
+    max_tokens: 4000
+    model: DeepSeek-V3.2
+    name: deepseek
+    temperature: 0.7
   openai:
     api_base: https://wanqing-api.corp.kuaishou.com/api/gateway/v1/endpoints
     api_key: pku5smzrot21tt0gx4ojcqgx0m5fc06rv5db
@@ -18,4 +25,5 @@ memory:
 modules:
   network_proxy: true
   wechat: true
+scheduler_jobs: {}
 version: 0.1.0

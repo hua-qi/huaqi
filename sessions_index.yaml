@@ -284,3 +284,8 @@ sessions:
   thread_id: de2f57cb-9836-46e8-ac5c-682e945230e1
   title: 帮我搜罗一下上周 AI 领域相关的热点新
   turns: 3
+- created_at: '2026-04-08T14:49:52.875814'
+  last_active: '2026-04-08T15:04:08.297899'
+  thread_id: 94439c32-4955-4afd-83b5-475e0ba4b10c
+  title: 你好
+  turns: 2
