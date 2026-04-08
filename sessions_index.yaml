@@ -319,3 +319,8 @@ sessions:
   thread_id: 5cf830f3-c0ae-4575-a03d-fedecd19bc0f
   title: 今天 AI 相关的新闻有哪些？
   turns: 1
+- created_at: '2026-04-08T17:11:22.330747'
+  last_active: '2026-04-08T17:20:40.332163'
+  thread_id: 94dfa060-be5b-44e8-b521-0b997a4c5d48
+  title: 今天 AI 相关的新闻有哪些？
+  turns: 5
