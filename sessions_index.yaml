@@ -289,3 +289,8 @@ sessions:
   thread_id: 94439c32-4955-4afd-83b5-475e0ba4b10c
   title: 你好
   turns: 2
+- created_at: '2026-04-08T15:04:37.215048'
+  last_active: '2026-04-08T15:04:37.215048'
+  thread_id: 23b25752-9f4c-47ab-9c30-2140205492de
+  title: 分析一下我
+  turns: 1
