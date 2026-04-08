@@ -329,3 +329,8 @@ sessions:
   thread_id: 7ce79ba7-88a6-4e79-90a3-dee493b5834e
   title: 我今天使用 codeflicker cl
   turns: 2
+- created_at: '2026-04-08T20:01:59.869311'
+  last_active: '2026-04-08T20:11:52.225703'
+  thread_id: 990d3a69-5643-4294-a4c3-65648f0e39e6
+  title: 我今天使用
+  turns: 3
