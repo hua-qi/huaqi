@@ -8,15 +8,8 @@ llm_providers:
     api_base: https://api.deepseek.com
     api_key: sk-da0fc98c4fd540c7a47a90d9cf5df765
     max_tokens: 4000
-    model: DeepSeek-V3.2
+    model: ' deepseek-reasoner'
     name: deepseek
-    temperature: 0.7
-  openai:
-    api_base: https://wanqing-api.corp.kuaishou.com/api/gateway/v1/endpoints
-    api_key: pku5smzrot21tt0gx4ojcqgx0m5fc06rv5db
-    max_tokens: 4000
-    model: ep-czo1x9-1774507780045283571
-    name: openai
     temperature: 0.7
 memory:
   max_session_memory: 100
