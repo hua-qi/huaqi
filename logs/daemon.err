@@ -46,3 +46,27 @@ Traceback (most recent call last):
     print(f"[MorningBrief] 生成失败: {e}")
 ModuleNotFoundError: No module named 'huaqi_src.reports'
 Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-09 08:00:00 CST)" was missed by 3:39:57.901797
+Run time of job "_run_learning_push (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-09 21:00:00 CST)" was missed by 5:49:21.580453
+Run time of job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-09 23:00:00 CST)" was missed by 3:49:21.585261
+Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-10 08:00:00 CST)" was missed by 2:32:04.090199
+Run time of job "_run_learning_push (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-10 21:00:00 CST)" was missed by 15:54:37.852623
+Run time of job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-10 23:00:00 CST)" was missed by 13:54:37.858703
+Run time of job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-11 08:00:00 CST)" was missed by 4:54:37.862235
+Run time of job "_run_learning_push (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-11 21:00:00 CST)" was missed by 0:59:33.778206
+Job "_run_daily_report (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-11 23:00:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/jobs.py", line 15, in _run_daily_report
+    existing = manager.scheduler.get_jobs()
+ModuleNotFoundError: No module named 'huaqi_src.reports'
+Job "_run_morning_brief (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-12 08:00:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Users/lianzimeng/Library/Python/3.9/lib/python/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/jobs.py", line 6, in _run_morning_brief
+    from huaqi_src.layers.data.raw_signal.models import RawSignalFilter
+ModuleNotFoundError: No module named 'huaqi_src.reports'
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-12 23:00:00 CST)" was missed by 16:17:18.921013
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='7', minute='0'], next run at: 2026-04-13 07:00:00 CST)" was missed by 8:17:18.925285
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-13 08:00:00 CST)" was missed by 7:17:18.928149
