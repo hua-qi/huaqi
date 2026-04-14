@@ -70,3 +70,1989 @@ ModuleNotFoundError: No module named 'huaqi_src.reports'
 Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-12 23:00:00 CST)" was missed by 16:17:18.921013
 Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='7', minute='0'], next run at: 2026-04-13 07:00:00 CST)" was missed by 8:17:18.925285
 Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-13 08:00:00 CST)" was missed by 7:17:18.928149
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='21', minute='0'], next run at: 2026-04-13 21:00:00 CST)" was missed by 17:18:16.456655
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='23', minute='0'], next run at: 2026-04-13 23:00:00 CST)" was missed by 15:18:16.461261
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='7', minute='0'], next run at: 2026-04-14 07:00:00 CST)" was missed by 7:18:16.463892
+Run time of job "_run_scheduled_job (trigger: cron[month='*', day='*', day_of_week='*', hour='8', minute='0'], next run at: 2026-04-14 08:00:00 CST)" was missed by 6:18:16.466517
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Traceback (most recent call last):
+  File "/usr/local/bin/huaqi", line 15, in <module>
+    from cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/cli.py", line 18, in <module>
+    from huaqi_src.cli import app
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/__init__.py", line 10, in <module>
+    from huaqi_src.cli.context import console
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/cli/context.py", line 21, in <module>
+    from huaqi_src.scheduler.startup_recovery import StartupJobRecovery
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/__init__.py", line 3, in <module>
+    from .manager import SchedulerManager, get_scheduler_manager
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/manager.py", line 11, in <module>
+    from apscheduler.schedulers.asyncio import AsyncIOScheduler
+ModuleNotFoundError: No module named 'apscheduler.schedulers'
+Exception in thread Thread-135 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-141 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-139 (<lambda>):
+Exception in thread Thread-142 (<lambda>):
+Exception in thread Thread-131 (_run_missed_jobs):
+Exception in thread Thread-134 (_run_missed_jobs):
+Exception in thread Thread-136 (_run_missed_jobs):
+Exception in thread Thread-138 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Traceback (most recent call last):
+    self.run()
+Traceback (most recent call last):
+    self.run()
+Exception in thread Thread-124 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 104, in _run_missed_jobs
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-144 (<lambda>):
+    self.run()
+    _run_scheduled_job(
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/job_runner.py", line 29, in _run_scheduled_job
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+Exception in thread Thread-143 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/shared/response_format_text_grammar.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py", line 3, in <module>
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/__init__.py", line 3, in <module>
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/azure.py", line 10, in <module>
+    import openai
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/__init__.py", line 9, in <module>
+    from . import types
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/__init__.py", line 5, in <module>
+    from .batch import Batch as Batch
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/batch.py", line 9, in <module>
+    from .shared.metadata import Metadata
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/shared/__init__.py", line 20, in <module>
+    from .response_format_text_grammar import ResponseFormatTextGrammar as ResponseFormatTextGrammar
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/shared/response_format_text_grammar.py'
+    self.run()
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    full_prompt = prompt
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self.run()
+    self.run()
+    self.run()
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 45, in write_start
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/__init__.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models import AzureChatOpenAI, ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models.azure import AzureChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/azure.py", line 10, in <module>
+    import openai
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/__init__.py'
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+    with sqlite3.connect(self.db_path) as conn:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self.run()
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 256, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    chunks = list(self.stream(user_input))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 131, in stream
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self._lazy_init()
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+Exception in thread Thread-154 (<lambda>):
+sqlite3.OperationalError: unable to open database file
+Exception in thread Thread-152 (_run_missed_jobs):
+Traceback (most recent call last):
+                                        ^^^^^^^^^^^^^^^^^^^
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 96, in _run_missed_jobs
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 46, in write_start
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self.run()
+Exception in thread Thread-151 (_run_missed_jobs):
+Traceback (most recent call last):
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 45, in write_start
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-160 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 45, in write_start
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    log = JobExecutionLog(self.db_path)
+    raise item
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 115, in _run
+    with sqlite3.connect(self.db_path) as conn:
+    self._loop = events.new_event_loop()
+    self.run()
+                                        ^^^^^^^^^^^^^^^^^^^
+Exception in thread Thread-162 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self._target(*self._args, **self._kwargs)
+sqlite3.OperationalError: unable to open database file
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    self.run()
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 23, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._loop = events.new_event_loop()
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+Exception in thread Thread-164 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    cursor = conn.execute(
+             ^^^^^^^^^^^^^
+    async for chunk in self._astream(user_input):
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    self._init_db()
+    self._lazy_init()
+Exception in thread Thread-165 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self._lazy_init()
+    self.run()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/chat_model.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models import AzureChatOpenAI, ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models.azure import AzureChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/azure.py", line 10, in <module>
+    import openai
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/__init__.py", line 9, in <module>
+    from . import types
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/__init__.py", line 32, in <module>
+    from .chat_model import ChatModel as ChatModel
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/types/chat_model.py'
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 150, in _astream
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    return get_event_loop_policy().new_event_loop()
+    self._loop = events.new_event_loop()
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 96, in _run_missed_jobs
+    return get_event_loop_policy().new_event_loop()
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 26, in _init_db
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+sqlite3.OperationalError: unable to open database file
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    self._lazy_init()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self._target(*self._args, **self._kwargs)
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+Exception in thread Thread-168 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    with sqlite3.connect(self.db_path) as conn:
+    self._loop = events.new_event_loop()
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 46, in write_start
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    self.run()
+    return self._loop_factory()
+    log = JobExecutionLog(self.db_path)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 23, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+    self._lazy_init()
+    with Runner(debug=debug) as runner:
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    async with AsyncSqliteSaver.from_conn_string(str(db_path)) as checkpointer:
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 45, in write_start
+    self._lazy_init()
+    cursor = conn.execute(
+             ^^^^^^^^^^^^^
+    self._loop = events.new_event_loop()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 45, in write_start
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+sqlite3.OperationalError: unable to open database file
+sqlite3.OperationalError: unable to open database file
+    return get_event_loop_policy().new_event_loop()
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 210, in __aenter__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+sqlite3.OperationalError: unable to open database file
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 26, in _init_db
+                                        ^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    self._loop = events.new_event_loop()
+    selector = selectors.DefaultSelector()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+sqlite3.OperationalError: unable to open database file
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    return await anext(self.gen)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    self._lazy_init()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langgraph/checkpoint/sqlite/aio.py", line 137, in from_conn_string
+OSError: [Errno 24] Too many open files
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+    return self._loop_factory()
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 181, in __aenter__
+    selector = selectors.DefaultSelector()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    self._make_self_pipe()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+    return await self
+    selector = selectors.DefaultSelector()
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+           ^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 168, in _connect
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    return get_event_loop_policy().new_event_loop()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+    self._make_self_pipe()
+    self._selector = select.kqueue()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+                     ^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    return self._loop_factory()
+    super().close()
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models import AzureChatOpenAI, ChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/__init__.py", line 3, in <module>
+    from langchain_openai.chat_models.azure import AzureChatOpenAI
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/azure.py", line 20, in <module>
+    from langchain_openai.chat_models.base import BaseChatOpenAI, _get_default_model_profile
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py'
+    self._connection = await future
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+    a, b = _socket.socketpair(family, type, proto)
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    selector = selectors.DefaultSelector()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+OSError: [Errno 24] Too many open files
+    self._selector = select.kqueue()
+                       ^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 63, in _connection_worker_thread
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+                     ^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+    a, b = _socket.socketpair(family, type, proto)
+           ^^^^^^^^^^^^^^^^^^^^
+    self._close_self_pipe()
+    super().__init__(selector)
+    self._selector = select.kqueue()
+OSError: [Errno 24] Too many open files
+    result = function()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    self.close()
+                     ^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self._selector = select.kqueue()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+             ^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 466, in connector
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self._make_self_pipe()
+    self._remove_reader(self._ssock.fileno())
+    self.close()
+OSError: [Errno 24] Too many open files
+    super().close()
+    return sqlite3.connect(loc, **kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+    super().__init__(selector)
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+                     ^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+    self.close()
+    self._ssock, self._csock = socket.socketpair()
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+    self._close_self_pipe()
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py:1047: RuntimeWarning: coroutine 'ChatAgent.stream.<locals>._run' was never awaited
+  self._invoke_excepthook(self)
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    self._make_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._close_self_pipe()
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+    self.close()
+    a, b = _socket.socketpair(family, type, proto)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    super().close()
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._remove_reader(self._ssock.fileno())
+    self.close()
+    self._close_self_pipe()
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 113, in _run_missed_jobs
+    self._close_self_pipe()
+    self._close_self_pipe()
+    a, b = _socket.socketpair(family, type, proto)
+    self._remove_reader(self._ssock.fileno())
+    super().close()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        ^^^^^^^^^^^
+    log.write_result(entry_id, "failed", error=str(e))
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+OSError: [Errno 24] Too many open files
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 55, in write_result
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    conn.execute(
+sqlite3.OperationalError: attempt to write a readonly database
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    self._remove_reader(self._ssock.fileno())
+    super().close()
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 304, in generate_response
+    from langchain_openai import ChatOpenAI
+ImportError: cannot import name 'ChatOpenAI' from 'langchain_openai' (/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/__init__.py)
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/beta/chatkit/__init__.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 305, in generate_response
+    chat_model = ChatOpenAI(
+                 ^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/load/serializable.py", line 118, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1069, in validate_environment
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/functools.py", line 1001, in __get__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 212, in chat
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/__init__.py", line 3, in <module>
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/beta/__init__.py", line 3, in <module>
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/beta/beta.py", line 15, in <module>
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/beta/chatkit/__init__.py'
+generate_response 失败: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/__init__.py'
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 305, in generate_response
+    chat_model = ChatOpenAI(
+                 ^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/load/serializable.py", line 118, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/pydantic/main.py", line 250, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1069, in validate_environment
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/functools.py", line 1001, in __get__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 212, in chat
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+OSError: [Errno 24] Too many open files: '/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/__init__.py'
+Exception in thread Thread-330 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-331 (<lambda>):
+Traceback (most recent call last):
+Exception in thread Thread-332 (<lambda>):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+Exception in thread Thread-333 (<lambda>):
+Traceback (most recent call last):
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+                                        ^^^^^^^^^^^^^^^^^^^
+    self._target(*self._args, **self._kwargs)
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    with Runner(debug=debug) as runner:
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    self._lazy_init()
+    with Runner(debug=debug) as runner:
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    self._lazy_init()
+    self._lazy_init()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    self._lazy_init()
+    self._loop = events.new_event_loop()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+    self._loop = events.new_event_loop()
+    self._loop = events.new_event_loop()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    self._loop = events.new_event_loop()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    return get_event_loop_policy().new_event_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+    return get_event_loop_policy().new_event_loop()
+    return get_event_loop_policy().new_event_loop()
+    return self._loop_factory()
+    return get_event_loop_policy().new_event_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+    return self._loop_factory()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    return self._loop_factory()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    super().__init__(selector)
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    super().__init__(selector)
+    super().__init__(selector)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+    super().__init__(selector)
+    selector = selectors.DefaultSelector()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+    selector = selectors.DefaultSelector()
+    self._make_self_pipe()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+    self._make_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+    self._selector = select.kqueue()
+    self._selector = select.kqueue()
+                     ^^^^^^^^^^^^^^^
+                     ^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+    self._ssock, self._csock = socket.socketpair()
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+    self._ssock, self._csock = socket.socketpair()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+OSError: [Errno 24] Too many open files
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+    a, b = _socket.socketpair(family, type, proto)
+    self.close()
+    a, b = _socket.socketpair(family, type, proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+OSError: [Errno 24] Too many open files
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    self.close()
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    super().close()
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    super().close()
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._close_self_pipe()
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._close_self_pipe()
+    self._remove_reader(self._ssock.fileno())
+    self._remove_reader(self._ssock.fileno())
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py:1047: RuntimeWarning: coroutine 'ChatAgent.stream.<locals>._run' was never awaited
+  self._invoke_excepthook(self)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+<string>:7: RuntimeWarning: coroutine '_AstreamEventsCallbackHandler.on_tool_end' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+<string>:7: RuntimeWarning: coroutine '_AstreamEventsCallbackHandler.on_tool_start' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+Exception in thread Thread-503 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+Exception in thread Thread-498 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 96, in _run_missed_jobs
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+Exception in thread Thread-511 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 23, in __init__
+Exception in thread Thread-505 (_run_missed_jobs):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self.run()
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 46, in write_start
+    self._init_db()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 26, in _init_db
+Exception in thread Thread-467 (_run_missed_jobs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+sqlite3.OperationalError: unable to open database file
+Exception in thread Thread-512 (<lambda>):
+Traceback (most recent call last):
+Traceback (most recent call last):
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+sqlite3.OperationalError: unable to open database file
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    self.run()
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 102, in _run_missed_jobs
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 104, in _run_missed_jobs
+Exception in thread Thread-513 (<lambda>):
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    _run_scheduled_job(
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/job_runner.py", line 29, in _run_scheduled_job
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    entry_id = log.write_start(missed_job.job_id, missed_job.scheduled_at)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 46, in write_start
+    full_prompt = prompt
+    self._lazy_init()
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 256, in run
+    cursor = conn.execute(
+    self._target(*self._args, **self._kwargs)
+             ^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 131, in stream
+    self._loop = events.new_event_loop()
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    raise item
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 115, in _run
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+    return get_event_loop_policy().new_event_loop()
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 122, in <lambda>
+    async for chunk in self._astream(user_input):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/chat_agent.py", line 152, in _astream
+    with Runner(debug=debug) as runner:
+    return self._loop_factory()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+    async for event in graph.astream_events(state_input, config=config, version="v2"):
+    t = threading.Thread(target=lambda: asyncio.run(_run()), daemon=True)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 1516, in astream_events
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+    self._lazy_init()
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 189, in run
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+    super().__init__(selector)
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 56, in __init__
+    async for event in event_stream:
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/tracers/event_stream.py", line 1100, in _astream_events_implementation_v2
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 59, in __enter__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+    self._make_self_pipe()
+    self._lazy_init()
+    await task
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 137, in _lazy_init
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 107, in _make_self_pipe
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/tracers/event_stream.py", line 1055, in consume_astream
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/socket.py", line 657, in socketpair
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+OSError: [Errno 24] Too many open files
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/tracers/event_stream.py", line 199, in tap_output_aiter
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self._loop = events.new_event_loop()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 810, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/events.py", line 699, in new_event_loop
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 64, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 53, in __init__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/selectors.py", line 511, in __init__
+OSError: [Errno 24] Too many open files
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    first = await anext(output, sentinel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langgraph/pregel/main.py", line 3045, in astream
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    self._selector = select.kqueue()
+                     ^^^^^^^^^^^^^^^
+OSError: [Errno 24] Too many open files
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    async with AsyncPregelLoop(
+    super().close()
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langgraph/pregel/_loop.py", line 1361, in __aenter__
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'
+    saved = await self.checkpointer.aget_tuple(self.checkpoint_config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langgraph/checkpoint/sqlite/aio.py", line 330, in aget_tuple
+    await self.setup()
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langgraph/checkpoint/sqlite/aio.py", line 286, in setup
+    async with self.conn.executescript(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/context.py", line 41, in __aenter__
+    self._obj = await self._coro
+                ^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 255, in executescript
+    cursor = await self._execute(self._conn.executescript, sql_script)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 160, in _execute
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/aiosqlite/core.py", line 63, in _connection_worker_thread
+    result = function()
+             ^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/startup_recovery.py", line 113, in _run_missed_jobs
+    log.write_result(entry_id, "failed", error=str(e))
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/scheduler/execution_log.py", line 55, in write_result
+    conn.execute(
+sqlite3.OperationalError: unable to open database file
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+generate_response 失败: Connection error.
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lianzimeng/workspace/huaqi-growing/huaqi_src/agent/nodes/chat_nodes.py", line 318, in generate_response
+    async for chunk in chat_model_with_tools.astream(full_messages, config=config):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 5885, in astream
+    async for item in self.bound.astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 720, in astream
+    async for chunk in self._astream(
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 3190, in _astream
+    async for chunk in super()._astream(*args, **kwargs):
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1694, in _astream
+    _handle_openai_api_error(e)
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/langchain_openai/chat_models/base.py", line 1667, in _astream
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+/Users/lianzimeng/workspace/huaqi-growing/.venv/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py:348: RuntimeWarning: coroutine '_AstreamEventsCallbackHandler.on_tool_start' was never awaited
+  return all(field_info._complete for field_info in field_infos.values())
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Exception ignored in: <function BaseEventLoop.__del__ at 0x105a6b060>
+Traceback (most recent call last):
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 695, in __del__
+    self.close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 91, in close
+    self._close_self_pipe()
+  File "/Users/lianzimeng/.local/share/uv/python/cpython-3.11.13-macos-aarch64-none/lib/python3.11/asyncio/selector_events.py", line 98, in _close_self_pipe
+    self._remove_reader(self._ssock.fileno())
+                        ^^^^^^^^^^^
+AttributeError: '_UnixSelectorEventLoop' object has no attribute '_ssock'

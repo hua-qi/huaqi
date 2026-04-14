@@ -349,3 +349,453 @@ sessions:
   thread_id: 011c2d20-7442-474c-8b23-90f8616ec7e0
   title: 请推送今日学习内容，从进行中的课程中选取
   turns: 1
+- created_at: '2026-04-13T15:37:05.524608'
+  last_active: '2026-04-13T15:37:05.524608'
+  thread_id: 6649a095-d188-44bc-b8d2-bc39150fcbca
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T17:21:41.189303'
+  last_active: '2026-04-13T17:21:41.189303'
+  thread_id: 3d6fda6a-9ddb-4563-b98e-01888079a752
+  title: '[系统] 你正在执行定时任务「morni'
+  turns: 1
+- created_at: '2026-04-13T17:22:51.062462'
+  last_active: '2026-04-13T17:22:51.062462'
+  thread_id: 353ac7d3-8e0b-475b-ba18-d3ba5d4a1c87
+  title: '[系统] 你正在执行定时任务「weekl'
+  turns: 1
+- created_at: '2026-04-13T17:44:15.564928'
+  last_active: '2026-04-13T17:44:15.564928'
+  thread_id: 460bc17e-c2f9-4b0d-982c-032c73d49aa8
+  title: '[系统] 你正在执行定时任务「weekl'
+  turns: 1
+- created_at: '2026-04-13T17:46:43.971905'
+  last_active: '2026-04-13T17:46:43.971905'
+  thread_id: a2cab8dd-0473-45c3-9185-e00dbffaa127
+  title: '[系统] 你正在执行定时任务「morni'
+  turns: 1
+- created_at: '2026-04-13T19:33:47.243190'
+  last_active: '2026-04-14T14:38:46.753837'
+  thread_id: a9ee2953-52e5-4fa5-add7-78e4757d2a4a
+  title: 聊一聊 LangGraph
+  turns: 4
+- created_at: '2026-04-13T21:00:01.914855'
+  last_active: '2026-04-13T21:00:01.914855'
+  thread_id: 72c39c56-b5c9-4e0c-896c-7c3b7c074d2c
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:01.952072'
+  last_active: '2026-04-13T21:00:01.952072'
+  thread_id: bb9f4d12-9d4b-47d1-a499-cd22cc465d17
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:01.972857'
+  last_active: '2026-04-13T21:00:01.972857'
+  thread_id: 75263765-9d2f-4a3f-90da-e873082d8c31
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.017032'
+  last_active: '2026-04-13T21:00:02.017032'
+  thread_id: 260f50b9-6935-4900-8d9e-89bd027d8165
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.043463'
+  last_active: '2026-04-13T21:00:02.043463'
+  thread_id: c8c17915-951d-4ed1-b03a-28400e92e467
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.098295'
+  last_active: '2026-04-13T21:00:02.098295'
+  thread_id: d2a3df78-3f10-4eac-82d3-53174c006cdb
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.150768'
+  last_active: '2026-04-13T21:00:02.150768'
+  thread_id: 97837cc9-464c-471b-af20-b3a2df8211c5
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.204925'
+  last_active: '2026-04-13T21:00:02.204925'
+  thread_id: 4398dff0-e46b-4232-9049-520a64a5544a
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.230373'
+  last_active: '2026-04-13T21:00:02.230373'
+  thread_id: 4dcaaf18-0dad-4e2b-a51e-44e559141474
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.256850'
+  last_active: '2026-04-13T21:00:02.256850'
+  thread_id: 94091f70-d1ad-46e2-80c1-7a7a61c5a56d
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.290934'
+  last_active: '2026-04-13T21:00:02.290934'
+  thread_id: a736c564-f26b-48f3-81cc-c648d72ae3d6
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.317259'
+  last_active: '2026-04-13T21:00:02.317259'
+  thread_id: 57083745-b0f9-4c43-9485-938e51521059
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.353236'
+  last_active: '2026-04-13T21:00:02.353236'
+  thread_id: 3f5379f8-3701-41b4-85e4-1c850e0b2585
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.379916'
+  last_active: '2026-04-13T21:00:02.379916'
+  thread_id: 627ff6d2-dbe6-4cb4-be52-cfac297ef2d2
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.462642'
+  last_active: '2026-04-13T21:00:02.462642'
+  thread_id: 0585f04d-cf1b-431f-a411-84f11bfe7e42
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.499680'
+  last_active: '2026-04-13T21:00:02.499680'
+  thread_id: bcf73def-d075-4dcd-a95d-37ac9bcb5d4e
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.531817'
+  last_active: '2026-04-13T21:00:02.531817'
+  thread_id: a42b9518-fcb5-43f8-adf8-ac7a8cbf5f60
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.570110'
+  last_active: '2026-04-13T21:00:02.570110'
+  thread_id: 1732a642-fe02-45aa-879a-16168bec7a67
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.604049'
+  last_active: '2026-04-13T21:00:02.604049'
+  thread_id: 720ab8c3-92d5-4ee6-97da-66a544e8036a
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.637847'
+  last_active: '2026-04-13T21:00:02.637847'
+  thread_id: 3cbd4b43-5dde-4f02-b96b-12a53a461768
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.667556'
+  last_active: '2026-04-13T21:00:02.667556'
+  thread_id: 1e1d9a3f-5a53-4973-bdb1-85f391ac1fa4
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:02.826020'
+  last_active: '2026-04-13T21:00:02.826020'
+  thread_id: 2087fa8d-2fff-45d4-a88a-f763bcb59760
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:03.028841'
+  last_active: '2026-04-13T21:00:03.028841'
+  thread_id: 1bddd999-2e4f-444f-9052-13774050539b
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:06.719419'
+  last_active: '2026-04-13T21:00:06.719419'
+  thread_id: fef55041-8233-4f0a-abcd-f11446b5f407
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:07.754942'
+  last_active: '2026-04-13T21:00:07.754942'
+  thread_id: 39b621a3-c880-4f97-b77f-5dccf53b2f25
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:08.800623'
+  last_active: '2026-04-13T21:00:08.800623'
+  thread_id: 34612795-312c-4a37-84a3-6a7576937092
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:09.671753'
+  last_active: '2026-04-13T21:00:09.671753'
+  thread_id: 2ac9c3a3-4b00-437f-a5bd-24b0b903e84c
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:09.852589'
+  last_active: '2026-04-13T21:00:09.852589'
+  thread_id: 5ef550b7-328c-4ab1-b760-a660586cc693
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:09.888608'
+  last_active: '2026-04-13T21:00:09.888608'
+  thread_id: aa41ab59-945b-4d88-b3ef-ed7d9b6f4c37
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:09.969287'
+  last_active: '2026-04-13T21:00:09.969287'
+  thread_id: 4468d8bc-cebd-4759-be8a-1d4e442cf092
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.168668'
+  last_active: '2026-04-13T21:00:10.168668'
+  thread_id: 8410d15c-7eaa-42cc-b0f6-f5537470044b
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.205435'
+  last_active: '2026-04-13T21:00:10.205435'
+  thread_id: cfa1e071-e5cb-4e23-a74b-c474e3ac374b
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.250669'
+  last_active: '2026-04-13T21:00:10.250669'
+  thread_id: 70a65be6-1032-44be-afd2-342975a7cce7
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.276093'
+  last_active: '2026-04-13T21:00:10.276093'
+  thread_id: 61ea1ae6-1280-4942-a32b-660beb92959b
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.305634'
+  last_active: '2026-04-13T21:00:10.305634'
+  thread_id: 61cbcb20-da70-4717-a0f3-1c86dab9b4a8
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.361117'
+  last_active: '2026-04-13T21:00:10.361117'
+  thread_id: d89f5f84-3bfb-4223-a3d5-999d1d03a8c9
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.396256'
+  last_active: '2026-04-13T21:00:10.396256'
+  thread_id: 4a183459-7367-44ec-b12b-723683834805
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.424516'
+  last_active: '2026-04-13T21:00:10.424516'
+  thread_id: 2f408fe1-cf46-4fce-8e13-87c3a6927c48
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.627861'
+  last_active: '2026-04-13T21:00:10.627861'
+  thread_id: 9ef8fc83-0cad-4084-b5e6-8836915b423c
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.662007'
+  last_active: '2026-04-13T21:00:10.662007'
+  thread_id: 8e61e87a-797f-4982-8253-0c98f0f1767f
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T21:00:10.698148'
+  last_active: '2026-04-13T21:00:10.698148'
+  thread_id: be94301a-e5ee-4879-a542-0257782b4c73
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-13T23:00:55.904802'
+  last_active: '2026-04-13T23:00:55.904802'
+  thread_id: f444a4eb-2006-43a3-a4d2-e4df4df65056
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:00.423675'
+  last_active: '2026-04-13T23:01:00.423675'
+  thread_id: 14f67bf3-1a1e-4543-9931-f7f1b2aa6e76
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:00.595696'
+  last_active: '2026-04-13T23:01:00.595696'
+  thread_id: c322d0b3-cd4a-41e4-9bbf-6aa71507d5e8
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:02.530575'
+  last_active: '2026-04-13T23:01:02.530575'
+  thread_id: 91962193-c3e0-4a92-b5bb-07891ae5eb08
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:02.816414'
+  last_active: '2026-04-13T23:01:02.816414'
+  thread_id: 23164bd8-dc0a-4223-be4c-a4b7c5a86663
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:02.917682'
+  last_active: '2026-04-13T23:01:02.917682'
+  thread_id: 251d79e6-c2f0-4b83-a527-cd97fc5d4fae
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:02.991873'
+  last_active: '2026-04-13T23:01:02.991873'
+  thread_id: 18fe1ea8-a3c0-4cbe-8a20-6b4c114d61ad
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:04.771008'
+  last_active: '2026-04-13T23:01:04.771008'
+  thread_id: f2858c03-ebf3-44a2-83c6-ce4634b47817
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:05.443784'
+  last_active: '2026-04-13T23:01:05.443784'
+  thread_id: 9f7dbfce-cdce-4da8-a9a0-ebe57789c0ef
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:07.167418'
+  last_active: '2026-04-13T23:01:07.167418'
+  thread_id: 36276e77-4270-4000-b76a-142bf20821ac
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:07.221661'
+  last_active: '2026-04-13T23:01:07.221661'
+  thread_id: a7b9fe0b-2b11-4f7d-a4af-e415d696b995
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:07.418393'
+  last_active: '2026-04-13T23:01:07.418393'
+  thread_id: 42b192ab-f987-457d-b2ed-7a0feb685f2e
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:08.113961'
+  last_active: '2026-04-13T23:01:08.113961'
+  thread_id: c2282b2a-1064-4cc5-88b0-623bef256ac6
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:09.665061'
+  last_active: '2026-04-13T23:01:09.665061'
+  thread_id: f80d82cd-ef9f-498d-870b-a977ac189092
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:09.709999'
+  last_active: '2026-04-13T23:01:09.709999'
+  thread_id: 7c389cd2-2783-4d21-875d-91eff20044e8
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:09.757336'
+  last_active: '2026-04-13T23:01:09.757336'
+  thread_id: 949bcf1f-c587-49d5-a2eb-659fb6e15c0a
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:09.994212'
+  last_active: '2026-04-13T23:01:09.994212'
+  thread_id: 84ee7197-2081-449b-b3e5-35f66379525f
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:10.172533'
+  last_active: '2026-04-13T23:01:10.172533'
+  thread_id: fe26de42-6259-4c3c-a986-276395c747f5
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:12.245142'
+  last_active: '2026-04-13T23:01:12.245142'
+  thread_id: c33e8d01-4b72-4558-94f3-1b27fba56610
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:13.153256'
+  last_active: '2026-04-13T23:01:13.153256'
+  thread_id: 34ebd412-bafd-49fd-89ca-c7d2eaa5ec4a
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:14.575724'
+  last_active: '2026-04-13T23:01:14.575724'
+  thread_id: 763a6225-0ca2-4755-ae7d-cac3353162a7
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:14.742657'
+  last_active: '2026-04-13T23:01:14.742657'
+  thread_id: bdf0a7d7-c7be-4d00-b14e-b2b94d13dcbc
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:15.170282'
+  last_active: '2026-04-13T23:01:15.170282'
+  thread_id: c1b3e88c-0f1d-469b-b8cd-5f18adb80fe5
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:15.444345'
+  last_active: '2026-04-13T23:01:15.444345'
+  thread_id: a60105a4-041a-4fb3-8008-00ace1dc2a33
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:16.225395'
+  last_active: '2026-04-13T23:01:16.225395'
+  thread_id: 92e447b8-4692-4234-82fc-f7d26877bd5d
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:17.306780'
+  last_active: '2026-04-13T23:01:17.306780'
+  thread_id: 3ea1b3f9-7570-4197-84b5-33474e9bedd2
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:18.453560'
+  last_active: '2026-04-13T23:01:18.453560'
+  thread_id: 3816c749-ef34-4c89-baea-55509ca58ffa
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:18.563826'
+  last_active: '2026-04-13T23:01:18.563826'
+  thread_id: f19c0f7a-7d7c-47a2-95b7-992cd73eb6a8
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:19.597351'
+  last_active: '2026-04-13T23:01:19.597351'
+  thread_id: 288a4a2e-a6a8-4796-b3d8-4678947f42aa
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:19.764097'
+  last_active: '2026-04-13T23:01:19.764097'
+  thread_id: 03e6634a-17ff-4abd-b209-76dd22b8a3ad
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:21.182070'
+  last_active: '2026-04-13T23:01:21.182070'
+  thread_id: 6bc32076-aed0-4d97-a5d4-b0aa15f09c08
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:21.863761'
+  last_active: '2026-04-13T23:01:21.863761'
+  thread_id: f117e709-624d-4a86-af04-2839212d61fd
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:23.803295'
+  last_active: '2026-04-13T23:01:23.803295'
+  thread_id: 4546fff2-77b3-4bca-b874-20933cc58c36
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:25.726637'
+  last_active: '2026-04-13T23:01:25.726637'
+  thread_id: 67e96a44-acda-4022-b3b5-9876c45becee
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:25.773791'
+  last_active: '2026-04-13T23:01:25.773791'
+  thread_id: 55b67b98-d835-4430-bc97-c7070c97182b
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-13T23:01:35.203443'
+  last_active: '2026-04-13T23:01:35.203443'
+  thread_id: efd469a4-dd28-4af2-9e5f-3f59c76005a1
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-14T07:00:02.668603'
+  last_active: '2026-04-14T07:00:02.668603'
+  thread_id: d294a8ac-84c5-4795-81ba-d85fc1f4974c
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
+- created_at: '2026-04-14T07:00:02.950882'
+  last_active: '2026-04-14T07:00:02.950882'
+  thread_id: 051c350a-9f3a-416f-9ac6-b8fd77cb1eb7
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
+- created_at: '2026-04-14T07:00:05.598319'
+  last_active: '2026-04-14T07:00:05.598319'
+  thread_id: cf562de7-e16f-4a32-85cf-581c1e17c727
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
+- created_at: '2026-04-14T07:00:05.695666'
+  last_active: '2026-04-14T07:00:05.695666'
+  thread_id: 5508c207-00d8-406f-8c05-c6b9a1ec19cf
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
+- created_at: '2026-04-14T07:00:05.807424'
+  last_active: '2026-04-14T07:00:05.807424'
+  thread_id: 95d9f2df-9b8f-487f-b59a-1e18731c04a6
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
+- created_at: '2026-04-14T11:07:36.097143'
+  last_active: '2026-04-14T11:07:36.097143'
+  thread_id: 0a427cae-ad80-4931-9347-96e926733dbd
+  title: '[系统] 你正在执行定时任务「morni'
+  turns: 1
+- created_at: '2026-04-14T15:52:01.457667'
+  last_active: '2026-04-14T15:52:01.457667'
+  thread_id: 34e89fc3-188d-4cac-a6d5-4596c6fcbbf0
+  title: xit
+  turns: 1
