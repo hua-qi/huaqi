@@ -819,3 +819,8 @@ sessions:
   thread_id: 886fb088-8db1-486a-a692-7052f1e96b2d
   title: 请采集今日世界新闻并存储到本地。
   turns: 1
+- created_at: '2026-04-15T16:20:43.336883'
+  last_active: '2026-04-15T16:20:43.336883'
+  thread_id: 81c036ec-c0dc-40d0-ae53-bb1a68257a98
+  title: 看一下今天的晨报
+  turns: 1
