@@ -799,3 +799,23 @@ sessions:
   thread_id: 34e89fc3-188d-4cac-a6d5-4596c6fcbbf0
   title: xit
   turns: 1
+- created_at: '2026-04-15T15:56:23.759586'
+  last_active: '2026-04-15T16:09:15.192742'
+  thread_id: 8b6df77d-635c-4e03-95db-b3c825ddeeda
+  title: webpack 的 loader 和 p
+  turns: 5
+- created_at: '2026-04-15T15:56:35.485555'
+  last_active: '2026-04-15T15:56:35.485555'
+  thread_id: 4a473550-ff22-4069-b7b2-ba8a3c6bb31c
+  title: '[系统] 你正在执行定时任务「morni'
+  turns: 1
+- created_at: '2026-04-15T15:57:48.865861'
+  last_active: '2026-04-15T15:57:48.865861'
+  thread_id: 0003b581-fe6f-41ca-8c54-31b11e354d1b
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-15T16:01:51.463370'
+  last_active: '2026-04-15T16:01:51.463370'
+  thread_id: 886fb088-8db1-486a-a692-7052f1e96b2d
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1
