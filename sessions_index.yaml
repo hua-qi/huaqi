@@ -824,3 +824,28 @@ sessions:
   thread_id: 81c036ec-c0dc-40d0-ae53-bb1a68257a98
   title: 看一下今天的晨报
   turns: 1
+- created_at: '2026-04-15T16:32:02.098526'
+  last_active: '2026-04-16T11:18:42.071301'
+  thread_id: f3b4c7e2-d718-48c3-9a18-86a8783a03b0
+  title: 看一下今天的晨报
+  turns: 16
+- created_at: '2026-04-16T11:06:08.702346'
+  last_active: '2026-04-16T11:06:08.702346'
+  thread_id: 94a0377f-dae9-4ae9-b619-0e3d49b593ee
+  title: '[系统] 你正在执行定时任务「morni'
+  turns: 1
+- created_at: '2026-04-16T11:07:20.783103'
+  last_active: '2026-04-16T11:07:20.783103'
+  thread_id: 40375609-4c0e-46c4-b7ae-ee164dec7fc5
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-16T11:07:49.286414'
+  last_active: '2026-04-16T11:07:49.286414'
+  thread_id: 8c41a85f-fecf-4801-9ae9-58040d75e178
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-16T11:10:44.931914'
+  last_active: '2026-04-16T11:10:44.931914'
+  thread_id: fd1ad92f-e0fe-4a55-993f-c3a77e22215b
+  title: 请采集今日世界新闻并存储到本地。
+  turns: 1

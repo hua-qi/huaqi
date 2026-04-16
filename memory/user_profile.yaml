@@ -1,12 +1,13 @@
 identity:
   name: 连子蒙
+  occupation: 前端开发工程师
 preferences:
   preferred_languages:
   - zh
 background: {}
 created_at: '2026-03-29T15:20:43.426668'
-updated_at: '2026-03-30T22:43:48.847378'
-version: 5
+updated_at: '2026-04-15T20:38:44.123261'
+version: 6
 extraction_history:
 - timestamp: '2026-03-29T15:21:06.492481'
   fields:
@@ -24,3 +25,8 @@ extraction_history:
   fields:
     name: 连子蒙
   source_preview: 我是连子蒙啊朋友，你忘了我妈
+- timestamp: '2026-04-15T20:38:44.123254'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+  source_preview: 我是 3 年经验的前端开发工程师，针对我的个人情况，制定为期一周的面试准备企划
