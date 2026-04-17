@@ -16,6 +16,7 @@ memory:
   search_algorithm: hybrid
   search_top_k: 5
 modules:
+  cli_chat: true
   network_proxy: true
   wechat: true
 scheduler_jobs: {}
