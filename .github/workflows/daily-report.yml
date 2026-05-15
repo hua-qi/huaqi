@@ -37,6 +37,8 @@ jobs:
           echo "file=$(ls reports/daily/$(date +%F)-evening.md 2>/dev/null || echo '')" >> $GITHUB_OUTPUT
 
       - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git pull --rebase
           git config user.name "Huaqi Bot"
@@ -46,6 +48,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: generate daily report $(date +%F)"
+            git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
             git push
           fi
 
