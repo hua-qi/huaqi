@@ -32,9 +32,8 @@ jobs:
         env:
           HUAQI_DATA_DIR: ${{ github.workspace }}
           HUAQI_SKIP_RECOVERY: '1'
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          huaqi scheduler run world_fetch 2>&1 | tee /tmp/world_output.txt
+          huaqi world fetch
 
       - name: Commit and push
         env:
