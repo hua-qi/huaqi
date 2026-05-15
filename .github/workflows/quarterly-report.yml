@@ -1,0 +1,85 @@
+name: 季报
+
+on:
+  schedule:
+    # 每月 28-31 号 22:00 北京时间 (UTC 14:00)，季度月份 (3,6,9,12)
+    - cron: '0 14 28-31 3,6,9,12 *'
+  workflow_dispatch:
+
+jobs:
+  check-and-generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/checkout@v4
+        with:
+          repository: hua-qi/huaqi-I
+          path: huaqi-src
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Check if last day of quarter
+        id: check
+        run: |
+          python3 -c "
+          from datetime import date, timedelta
+          today = date.today()
+          is_quarter_end = today.month in (3, 6, 9, 12) and (today + timedelta(days=1)).month != today.month
+          if not is_quarter_end:
+              print('Not the last day of the quarter, skipping.')
+              exit(0)
+          print(f'{today} is the last day of Q{(today.month-1)//3+1}, proceeding.')
+          "
+
+      - name: Install huaqi
+        run: pip install -e huaqi-src/
+
+      - name: Generate quarterly report
+        id: report
+        env:
+          HUAQI_DATA_DIR: ${{ github.workspace }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          huaqi report quarterly
+          Q=$(( ($(date +%m) - 1) / 3 + 1 ))
+          echo "file=$(ls reports/quarterly/$(date +%Y)-Q${Q}.md 2>/dev/null || echo '')" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        run: |
+          git pull --rebase
+          git config user.name "Huaqi Bot"
+          git config user.email "bot@huaqi.local"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            Q=$(( ($(date +%m) - 1) / 3 + 1 ))
+            git commit -m "chore: generate quarterly report $(date +%Y)-Q${Q}"
+            git push
+          fi
+
+      - name: Notify success
+        if: success()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          Q=$(( ($(date +%m) - 1) / 3 + 1 ))
+          bash .github/workflows/notify.sh \
+            "✅ 季报已生成" \
+            "季报 $(date +%Y)-Q${Q} 已生成并推送到数据仓库。"
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "❌ 季报生成失败" \
+            "请查看运行日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

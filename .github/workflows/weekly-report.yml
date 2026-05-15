@@ -1,0 +1,68 @@
+name: 周报
+
+on:
+  schedule:
+    - cron: '0 13 * * 0'   # UTC 13:00 周日 = 北京时间 21:00 周日
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/checkout@v4
+        with:
+          repository: hua-qi/huaqi-I
+          path: huaqi-src
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install huaqi
+        run: pip install -e huaqi-src/
+
+      - name: Generate weekly report
+        id: report
+        env:
+          HUAQI_DATA_DIR: ${{ github.workspace }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          huaqi report weekly
+          echo "file=$(ls reports/weekly/$(date +%Y)-W$(date +%V).md 2>/dev/null || echo '')" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        run: |
+          git pull --rebase
+          git config user.name "Huaqi Bot"
+          git config user.email "bot@huaqi.local"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: generate weekly report $(date +%Y)-W$(date +%V)"
+            git push
+          fi
+
+      - name: Notify success
+        if: success()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "✅ 周报已生成" \
+            "周报 $(date +%Y)-W$(date +%V) 已生成并推送到数据仓库。"
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "❌ 周报生成失败" \
+            "请查看运行日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

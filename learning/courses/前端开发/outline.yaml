@@ -1,0 +1,56 @@
+created_at: '2026-04-18T21:00:26.453817'
+current_lesson: 1
+lessons:
+- completed_at: null
+  index: 1
+  lesson_type: quiz
+  status: pending
+  title: Web 基础：HTML、CSS 与网络入门
+- completed_at: null
+  index: 2
+  lesson_type: quiz
+  status: pending
+  title: JavaScript 编程语言核心
+- completed_at: null
+  index: 3
+  lesson_type: quiz
+  status: pending
+  title: 响应式设计与 CSS 进阶
+- completed_at: null
+  index: 4
+  lesson_type: quiz
+  status: pending
+  title: 前端开发工具与工程化基础
+- completed_at: null
+  index: 5
+  lesson_type: quiz
+  status: pending
+  title: JavaScript 框架与单页应用开发
+- completed_at: null
+  index: 6
+  lesson_type: quiz
+  status: pending
+  title: 浏览器工作原理与性能优化
+- completed_at: null
+  index: 7
+  lesson_type: quiz
+  status: pending
+  title: 现代前端框架深度实践
+- completed_at: null
+  index: 8
+  lesson_type: coding
+  status: pending
+  title: TypeScript 与前端代码质量
+- completed_at: null
+  index: 9
+  lesson_type: project
+  status: pending
+  title: 前端测试策略与部署运维
+- completed_at: null
+  index: 10
+  lesson_type: quiz
+  status: pending
+  title: 前端架构模式与前沿技术展望
+skill_name: 前端开发
+slug: 前端开发
+total_lessons: 10

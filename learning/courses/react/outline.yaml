@@ -1,0 +1,56 @@
+created_at: '2026-04-18T21:00:21.591513'
+current_lesson: 1
+lessons:
+- completed_at: null
+  index: 1
+  lesson_type: quiz
+  status: pending
+  title: React 开发环境与核心概念
+- completed_at: null
+  index: 2
+  lesson_type: quiz
+  status: pending
+  title: JSX 语法与组件基础
+- completed_at: null
+  index: 3
+  lesson_type: quiz
+  status: pending
+  title: 组件状态与生命周期
+- completed_at: null
+  index: 4
+  lesson_type: quiz
+  status: pending
+  title: 事件处理与表单控制
+- completed_at: null
+  index: 5
+  lesson_type: quiz
+  status: pending
+  title: 组件组合与 Props 深入
+- completed_at: null
+  index: 6
+  lesson_type: quiz
+  status: pending
+  title: Hooks 基础与常用内置 Hooks
+- completed_at: null
+  index: 7
+  lesson_type: quiz
+  status: pending
+  title: 高级 Hooks 与自定义 Hooks
+- completed_at: null
+  index: 8
+  lesson_type: quiz
+  status: pending
+  title: Context API 与状态管理
+- completed_at: null
+  index: 9
+  lesson_type: quiz
+  status: pending
+  title: 路由与单页应用开发
+- completed_at: null
+  index: 10
+  lesson_type: quiz
+  status: pending
+  title: 性能优化与最佳实践
+skill_name: React
+slug: react
+total_lessons: 10

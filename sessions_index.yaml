@@ -1,10 +1,10 @@
 sessions:
-- created_at: '2026-03-29T06:18:52.382838'
-  last_active: '2026-03-29T06:18:56.645420'
-  thread_id: c65807e6-98a7-4858-8cf9-03a3364e1654
-  title: 你好哇
-  turns: 2
-- created_at: '2026-03-29T06:19:48.323007'
+- created_at: '2026-04-17T23:00:05.619980'
+  last_active: '2026-04-17T23:00:05.619980'
+  thread_id: bbd8437b-7e5a-4f89-8297-864d4e2ee9fa
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+3007'
   last_active: '2026-03-29T06:19:48.323007'
   thread_id: c68bfac5-ce6f-4a4c-b5c2-87a023810a2e
   title: 你是谁
@@ -825,10 +825,10 @@ sessions:
   title: 看一下今天的晨报
   turns: 1
 - created_at: '2026-04-15T16:32:02.098526'
-  last_active: '2026-04-17T21:13:20.411173'
+  last_active: '2026-04-17T21:32:13.367643'
   thread_id: f3b4c7e2-d718-48c3-9a18-86a8783a03b0
   title: 看一下今天的晨报
-  turns: 22
+  turns: 24
 - created_at: '2026-04-16T11:06:08.702346'
   last_active: '2026-04-16T11:06:08.702346'
   thread_id: 94a0377f-dae9-4ae9-b619-0e3d49b593ee
@@ -883,4 +883,39 @@ sessions:
   last_active: '2026-04-17T21:10:44.962043'
   thread_id: e5b3cec7-07fa-4f94-9e5a-a55f96b09395
   title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-17T22:29:13.635523'
+  last_active: '2026-04-17T22:29:13.635523'
+  thread_id: c632d796-af1f-469c-8068-eb9539b3aee9
+  title: 请推送今日学习内容，从进行中的课程中选取
+  turns: 1
+- created_at: '2026-04-17T23:00:02.570206'
+  last_active: '2026-04-17T23:00:02.570206'
+  thread_id: ae9445cb-5914-4671-a53a-b0ec65628a39
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-17T23:00:02.924584'
+  last_active: '2026-04-17T23:00:02.924584'
+  thread_id: 34b370df-2626-44c4-9a73-df60c4b4c100
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-17T23:00:04.404389'
+  last_active: '2026-04-17T23:00:04.404389'
+  thread_id: b647d27b-b115-448d-83dd-6f8bcb564bd6
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-17T23:00:05.175324'
+  last_active: '2026-04-17T23:00:05.175324'
+  thread_id: 2f858cae-ed6f-4c70-9725-b94fb8a9dba5
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-17T23:00:05.559174'
+  last_active: '2026-04-17T23:00:05.559174'
+  thread_id: dd4b8758-265d-4d01-9244-8fea232e7edd
+  title: '[系统] 你正在执行定时任务「daily'
+  turns: 1
+- created_at: '2026-04-17T23:00:05.619731'
+  last_active: '2026-04-17T23:00:05.619731'
+  thread_id: 47b284f4-a75a-47c1-88b6-ef0a6dfc8fbb
+  title: '[系统] 你正在执行定时任务「daily'
   turns: 1

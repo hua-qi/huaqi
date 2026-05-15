@@ -1,0 +1,68 @@
+name: 学习推送
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # UTC 13:00 = 北京时间 21:00
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/checkout@v4
+        with:
+          repository: hua-qi/huaqi-I
+          path: huaqi-src
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install huaqi
+        run: pip install -e huaqi-src/
+
+      - name: Run learning push
+        id: report
+        env:
+          HUAQI_DATA_DIR: ${{ github.workspace }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          huaqi scheduler run learning_daily_push
+
+      - name: Commit and push
+        run: |
+          git pull --rebase
+          git config user.name "Huaqi Bot"
+          git config user.email "bot@huaqi.local"
+          git add learning/ 2>/dev/null || true
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: learning push $(date +%F)"
+            git push
+          fi
+
+      - name: Notify success
+        if: success()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "✅ 学习推送已完成" \
+            "学习推送 $(date +%F) 已完成并推送到数据仓库。"
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "❌ 学习推送失败" \
+            "请查看运行日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

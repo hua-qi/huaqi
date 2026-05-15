@@ -1,0 +1,56 @@
+created_at: '2026-04-18T21:00:34.084620'
+current_lesson: 1
+lessons:
+- completed_at: null
+  index: 1
+  lesson_type: quiz
+  status: pending
+  title: Vite 简介与核心优势
+- completed_at: null
+  index: 2
+  lesson_type: project
+  status: pending
+  title: Vite 项目创建与基础配置
+- completed_at: null
+  index: 3
+  lesson_type: quiz
+  status: pending
+  title: 开发服务器与模块热替换原理
+- completed_at: null
+  index: 4
+  lesson_type: quiz
+  status: pending
+  title: Vite 插件系统与常用插件
+- completed_at: null
+  index: 5
+  lesson_type: quiz
+  status: pending
+  title: CSS、静态资源与构建优化
+- completed_at: null
+  index: 6
+  lesson_type: quiz
+  status: pending
+  title: Vite 与前端框架深度集成
+- completed_at: null
+  index: 7
+  lesson_type: quiz
+  status: pending
+  title: 高级配置与自定义构建
+- completed_at: null
+  index: 8
+  lesson_type: quiz
+  status: pending
+  title: Vite 源码浅析与插件开发
+- completed_at: null
+  index: 9
+  lesson_type: quiz
+  status: pending
+  title: Vite 在 SSR 和库模式中的应用
+- completed_at: null
+  index: 10
+  lesson_type: quiz
+  status: pending
+  title: Vite 生态系统与最佳实践
+skill_name: vite
+slug: vite
+total_lessons: 10

@@ -8,3 +8,11 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# 运行时数据库文件（体积大、变动频繁，不应入库）
+*.db
+*.db-shm
+*.db-wal
+
+# 运行时日志
+logs/
