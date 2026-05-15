@@ -45,6 +45,7 @@ jobs:
         id: report
         env:
           HUAQI_DATA_DIR: ${{ github.workspace }}
+          HUAQI_SKIP_RECOVERY: '1'
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           huaqi report quarterly
@@ -74,9 +75,10 @@ jobs:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
           Q=$(( ($(date +%m) - 1) / 3 + 1 ))
+          REPORT=$(cat reports/quarterly/$(date +%Y)-Q${Q}.md 2>/dev/null || echo "报告内容读取失败")
           bash .github/workflows/notify.sh \
             "✅ 季报已生成" \
-            "季报 $(date +%Y)-Q${Q} 已生成并推送到数据仓库。"
+            "${REPORT}"
 
       - name: Notify failure
         if: failure()

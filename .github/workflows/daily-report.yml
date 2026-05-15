@@ -31,6 +31,7 @@ jobs:
         id: report
         env:
           HUAQI_DATA_DIR: ${{ github.workspace }}
+          HUAQI_SKIP_RECOVERY: '1'
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           huaqi report daily
@@ -57,9 +58,10 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
+          REPORT=$(cat reports/daily/$(date +%F)-evening.md 2>/dev/null || echo "报告内容读取失败")
           bash .github/workflows/notify.sh \
             "✅ 日终复盘已生成" \
-            "日终复盘 $(date +%F) 已生成并推送到数据仓库。"
+            "${REPORT}"
 
       - name: Notify failure
         if: failure()
