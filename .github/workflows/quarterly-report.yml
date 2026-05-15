@@ -49,8 +49,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           huaqi report quarterly
-          Q=$(( ($(date +%m) - 1) / 3 + 1 ))
-          echo "file=$(ls reports/quarterly/$(date +%Y)-Q${Q}.md 2>/dev/null || echo '')" >> $GITHUB_OUTPUT
+          echo "file=$(ls reports/quarterly/$(date +%F)-quarterly.md 2>/dev/null || echo '')" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         env:
@@ -74,8 +73,7 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          Q=$(( ($(date +%m) - 1) / 3 + 1 ))
-          REPORT=$(cat reports/quarterly/$(date +%Y)-Q${Q}.md 2>/dev/null || echo "报告内容读取失败")
+          REPORT=$(cat reports/quarterly/$(date +%F)-quarterly.md 2>/dev/null || echo "报告内容读取失败")
           bash .github/workflows/notify.sh \
             "✅ 季报已生成" \
             "${REPORT}"
