@@ -58,7 +58,7 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          CONTENT=$(cat /tmp/learning_output.txt 2>/dev/null || echo "无输出内容")
+          CONTENT=$(cat learning/$(date +%F)-learning.md 2>/dev/null || echo "无输出内容")
           bash .github/workflows/notify.sh \
             "✅ 学习推送已完成" \
             "${CONTENT}"

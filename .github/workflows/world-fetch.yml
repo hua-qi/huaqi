@@ -58,7 +58,7 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          CONTENT=$(cat /tmp/world_output.txt 2>/dev/null || echo "无输出内容")
+          CONTENT=$(cat world/$(date +%F).md 2>/dev/null || echo "无输出内容")
           bash .github/workflows/notify.sh \
             "✅ 世界新闻已采集" \
             "${CONTENT}"
