@@ -32,6 +32,7 @@ jobs:
         env:
           HUAQI_DATA_DIR: ${{ github.workspace }}
           HUAQI_SKIP_RECOVERY: '1'
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           huaqi world fetch
 
