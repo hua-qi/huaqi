@@ -34,7 +34,7 @@ jobs:
           HUAQI_SKIP_RECOVERY: '1'
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          huaqi scheduler run world_fetch
+          huaqi scheduler run world_fetch 2>&1 | tee /tmp/world_output.txt
 
       - name: Commit and push
         env:
@@ -58,9 +58,10 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
+          CONTENT=$(cat /tmp/world_output.txt 2>/dev/null || echo "无输出内容")
           bash .github/workflows/notify.sh \
             "✅ 世界新闻已采集" \
-            "世界新闻采集 $(date +%F) 已完成并推送到数据仓库。"
+            "${CONTENT}"
 
       - name: Notify failure
         if: failure()

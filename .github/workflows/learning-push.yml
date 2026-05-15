@@ -34,7 +34,7 @@ jobs:
           HUAQI_SKIP_RECOVERY: '1'
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          huaqi scheduler run learning_daily_push
+          huaqi scheduler run learning_daily_push 2>&1 | tee /tmp/learning_output.txt
 
       - name: Commit and push
         env:
@@ -58,9 +58,10 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
+          CONTENT=$(cat /tmp/learning_output.txt 2>/dev/null || echo "无输出内容")
           bash .github/workflows/notify.sh \
             "✅ 学习推送已完成" \
-            "学习推送 $(date +%F) 已完成并推送到数据仓库。"
+            "${CONTENT}"
 
       - name: Notify failure
         if: failure()
