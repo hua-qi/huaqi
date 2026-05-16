@@ -58,10 +58,15 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          CONTENT=$(cat world/$(date +%F).md 2>/dev/null || echo "无输出内容")
+          FULL_CONTENT=$(cat world/$(date +%F).md 2>/dev/null || echo "无输出内容")
+          # ServerChan 免费版对 desp 有长度限制，取前 1500 字符作为摘要
+          SUMMARY=$(echo "${FULL_CONTENT}" | head -c 1500)
+          if [ ${#FULL_CONTENT} -gt 1500 ]; then
+            SUMMARY="${SUMMARY}..."
+          fi
           bash .github/workflows/notify.sh \
             "✅ 世界新闻已采集" \
-            "${CONTENT}"
+            "${SUMMARY}"
 
       - name: Notify failure
         if: failure()

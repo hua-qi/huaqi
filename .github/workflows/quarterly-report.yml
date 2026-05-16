@@ -73,10 +73,14 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          REPORT=$(cat reports/quarterly/$(date +%F)-quarterly.md 2>/dev/null || echo "报告内容读取失败")
+          FULL_REPORT=$(cat reports/quarterly/$(date +%F)-quarterly.md 2>/dev/null || echo "报告内容读取失败")
+          SUMMARY=$(echo "${FULL_REPORT}" | head -c 1500)
+          if [ ${#FULL_REPORT} -gt 1500 ]; then
+            SUMMARY="${SUMMARY}..."
+          fi
           bash .github/workflows/notify.sh \
             "✅ 季报已生成" \
-            "${REPORT}"
+            "${SUMMARY}"
 
       - name: Notify failure
         if: failure()
