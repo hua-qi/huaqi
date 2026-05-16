@@ -58,14 +58,10 @@ jobs:
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          FULL_CONTENT=$(cat learning/$(date +%F)-learning.md 2>/dev/null || echo "无输出内容")
-          SUMMARY=$(echo "${FULL_CONTENT}" | head -c 1500)
-          if [ ${#FULL_CONTENT} -gt 1500 ]; then
-            SUMMARY="${SUMMARY}..."
-          fi
+          FILE_URL="https://github.com/${{ github.repository }}/blob/main/learning/$(date +%F)-learning.md"
           bash .github/workflows/notify.sh \
             "✅ 学习推送已完成" \
-            "${SUMMARY}"
+            "今日学习推送已完成，[点击查看详情](${FILE_URL})"
 
       - name: Notify failure
         if: failure()

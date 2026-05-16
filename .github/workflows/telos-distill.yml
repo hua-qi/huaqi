@@ -52,3 +52,22 @@ jobs:
             git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
             git push
           fi
+
+      - name: Notify success
+        if: success()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          FILE_URL="https://github.com/${{ github.repository }}/tree/main/telos/"
+          bash .github/workflows/notify.sh \
+            "✅ TELOS 信号蒸馏完成" \
+            "TELOS 知识图谱已更新，[点击查看详情](${FILE_URL})"
+
+      - name: Notify failure
+        if: failure()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          bash .github/workflows/notify.sh \
+            "❌ TELOS 信号蒸馏失败" \
+            "请查看运行日志：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
