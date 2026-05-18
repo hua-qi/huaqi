@@ -5,7 +5,7 @@
 ## 核心层（变化最慢）
 - [beliefs.md](beliefs.md) — （待补充）（v0，置信度 0.5）
 - [models.md](models.md) — （待补充）（v0，置信度 0.5）
-- [narratives.md](narratives.md) — 用户连子蒙正在经历一个关键的自我认知重构期。从最初的被动记录…（v5，置信度 0.982）
+- [narratives.md](narratives.md) — 用户连子蒙正在经历一个关键的自我认知重构期。从最初的被动记录…（v6，置信度 0.97）
 
 ## 中间层（定期变化）
 - [challenges.md](challenges.md) — 用户当前面临的核心挑战已从‘应对外部物理事件’彻底转向‘在物…（v18，置信度 0.97）
