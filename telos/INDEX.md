@@ -8,7 +8,7 @@
 - [narratives.md](narratives.md) — （待补充）（v0，置信度 0.5）
 
 ## 中间层（定期变化）
-- [challenges.md](challenges.md) — 用户当前面临的主要挑战是：1）物理世界中的意外事件（如SIM…（v9，置信度 0.97）
+- [challenges.md](challenges.md) — 用户当前面临的核心挑战已从‘应对外部物理事件’彻底转向‘在物…（v10，置信度 0.97）
 - [goals.md](goals.md) — 用户连子蒙，前端开发工程师。当前阶段的核心目标已从模糊的自我…（v19，置信度 0.994）
 - [strategies.md](strategies.md) — （待补充）（v0，置信度 0.5）
 
