@@ -8,7 +8,7 @@
 - [narratives.md](narratives.md) — （待补充）（v0，置信度 0.5）
 
 ## 中间层（定期变化）
-- [challenges.md](challenges.md) — （待补充）（v0，置信度 0.5）
+- [challenges.md](challenges.md) — 用户当前面临的主要挑战是：1）物理世界中的意外事件（如SIM…（v1，置信度 0.5900000000000001）
 - [goals.md](goals.md) — 用户连子蒙，前端开发工程师。当前阶段的核心目标尚不明确，但表…（v1，置信度 0.5800000000000001）
 - [strategies.md](strategies.md) — （待补充）（v0，置信度 0.5）
 
