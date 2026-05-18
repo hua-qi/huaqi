@@ -13,7 +13,7 @@
 - [strategies.md](strategies.md) — （待补充）（v0，置信度 0.5）
 
 ## 表面层（频繁变化）
-- [learned.md](learned.md) — 用户通过主动提问（“跟你多聊聊天是不是能够让你更加的认识我？…（v2，置信度 0.71）
+- [learned.md](learned.md) — 用户通过主动提问（“跟你多聊聊天是不是能够让你更加的认识我？…（v3，置信度 0.79）
 - [shadows.md](shadows.md) — （待补充）（v0，置信度 0.5）
 
 ## 特殊
