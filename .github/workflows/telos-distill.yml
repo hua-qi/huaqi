@@ -24,6 +24,15 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Pull latest and configure git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Huaqi Bot"
+          git config user.email "bot@huaqi.local"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git pull --rebase origin main
+
       - name: Install huaqi
         run: pip install -e huaqi-src/
 
@@ -40,10 +49,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "Huaqi Bot"
-          git config user.email "bot@huaqi.local"
-          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git pull --rebase origin main
           git add telos/ 2>/dev/null || true
           git add .
           if git diff --cached --quiet; then

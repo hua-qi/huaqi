@@ -16,3 +16,6 @@ Thumbs.db
 
 # 运行时日志
 logs/
+
+# CI 源码检出
+huaqi-src/
