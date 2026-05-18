@@ -2,7 +2,7 @@
 dimension: beliefs
 layer: core
 confidence: 0.5
-updated_at: 2026-05-17
+updated_at: 2026-05-18
 update_count: 0
 ---
 
