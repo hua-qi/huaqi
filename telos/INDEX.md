@@ -5,7 +5,7 @@
 ## 核心层（变化最慢）
 - [beliefs.md](beliefs.md) — （待补充）（v0，置信度 0.5）
 - [models.md](models.md) — （待补充）（v0，置信度 0.5）
-- [narratives.md](narratives.md) — 子蒙，你正在完成一次漂亮的叙事跃迁。最初你只是记录生活事件（…（v7，置信度 0.982）
+- [narratives.md](narratives.md) — 子蒙，你的叙事已经完成了一次关键的深化。最初你从记录生活事件…（v8，置信度 0.9520000000000001）
 
 ## 中间层（定期变化）
 - [challenges.md](challenges.md) — 子蒙，你当前的核心挑战已经完成了一次关键的跃迁。你不再只是‘…（v19，置信度 0.928）
