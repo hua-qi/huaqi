@@ -1,6 +1,6 @@
 # 提示词索引
 
-共 39 个提示词文件。
+共 40 个提示词文件。
 
 | 文件 | Scene ID | 影响的功能 |
 |------|----------|-----------|
@@ -19,7 +19,8 @@
 | `layers/capabilities/reports/morning.md` | `layers.capabilities.reports.morning` | 晨间简报 |
 | `layers/capabilities/reports/quarterly.md` | `layers.capabilities.reports.quarterly` | 季报 |
 | `layers/capabilities/reports/weekly.md` | `layers.capabilities.reports.weekly` | 周报 |
-| `layers/capabilities/world_news_enricher.md` | `layers.capabilities.world_news_enricher` | 世界新闻富化与翻译 |
+| `layers/capabilities/world_news_enricher_source.md` | `layers.capabilities.world_news_enricher_source` | 世界新闻按源增强（per-source） |
+| `layers/capabilities/world_news_enricher.md` | `layers.capabilities.world_news_enricher` | 世界新闻富化（旧版，已废弃） |
 | `layers/data/memory/relevance.md` | `layers.data.memory.relevance` | 记忆相关性评估 |
 | `layers/data/profile/extract.md` | `layers.data.profile.extract` | 用户信息提取 |
 | `layers/data/profile/narrative.md` | `layers.data.profile.narrative` | 用户画像叙事生成 |
