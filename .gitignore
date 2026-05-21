@@ -9,8 +9,10 @@ Thumbs.db
 *.swo
 *~
 
-# 运行时数据库文件（体积大、变动频繁，不应入库）
-*.db
+# LangGraph 检查点数据库（体积大，不入库）
+checkpoints.db
+
+# SQLite WAL 运行时文件（不应入库）
 *.db-shm
 *.db-wal
 
