@@ -31,7 +31,7 @@ jobs:
           git config user.name "Huaqi Bot"
           git config user.email "bot@huaqi.local"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git pull --rebase origin main
+          git pull --ff-only origin main
 
       - name: Install huaqi
         run: pip install -e huaqi-src/
