@@ -7,14 +7,9 @@ preferences:
   - zh
 background: {}
 created_at: '2026-03-29T15:20:43.426668'
-updated_at: '2026-05-28T16:58:58.990395'
-version: 27
+updated_at: '2026-06-02T16:03:47.996852'
+version: 28
 extraction_history:
-- timestamp: '2026-04-24T11:58:03.608145'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: 我的手非常容易出汗，这是什么体质？随便打打羽毛球也会出汗
 - timestamp: '2026-04-27T18:54:24.255564'
   fields:
     name: 连子蒙
@@ -120,3 +115,9 @@ extraction_history:
     location: 中国大陆
   source_preview: 我有一个想法，现在 agent 只能感知到编辑态的编码，但无法感知到运行时的状态，我们是不是可以写一个脚手架插件、流水线插件和对应的
     agent 。对于前端应用来说，在编译时，在关键逻辑处添加 log...
+- timestamp: '2026-06-02T16:03:47.996843'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+  source_preview: 70 后，今年多少岁
