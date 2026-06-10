@@ -10,34 +10,9 @@ background:
   skills:
   - agent
 created_at: '2026-03-29T15:20:43.426668'
-updated_at: '2026-06-04T11:05:53.911490'
-version: 30
+updated_at: '2026-06-09T12:05:41.814986'
+version: 35
 extraction_history:
-- timestamp: '2026-04-28T11:19:13.425607'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: '[系统] 你正在执行定时任务「morning_brief」，请将最终结果用 write_file_tool 写入文件：/Users/lianzimeng/workspace/huaqi/reports...'
-- timestamp: '2026-04-28T11:19:41.299829'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: '[系统] 你正在执行定时任务「morning_brief」，请将最终结果用 write_file_tool 写入文件：/Users/lianzimeng/workspace/huaqi/reports...'
-- timestamp: '2026-04-28T11:21:16.982137'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: '[系统] 你正在执行定时任务「morning_brief」，请将最终结果用 write_file_tool 写入文件：/Users/lianzimeng/workspace/huaqi/reports...'
-- timestamp: '2026-04-28T11:22:14.369140'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: '[系统] 你正在执行定时任务「daily_report」，请将最终结果用 write_file_tool 写入文件：/Users/lianzimeng/workspace/huaqi/reports/...'
-- timestamp: '2026-05-14T16:48:47.363967'
-  fields:
-    name: 连子蒙
-    occupation: 前端开发工程师
-  source_preview: '[系统] 你正在执行定时任务「morning_brief」，请将最终结果用 write_file_tool 写入文件：/Users/lianzimeng/workspace/huaqi/reports...'
 - timestamp: '2026-05-14T16:50:15.155085'
   fields:
     name: 连子蒙
@@ -126,3 +101,43 @@ extraction_history:
     skills:
     - agent
   source_preview: 还在职，主攻方向是 agent
+- timestamp: '2026-06-04T11:28:18.407559'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+    skills:
+    - agent
+  source_preview: 总包 45 万，工作 3 年
+- timestamp: '2026-06-09T11:51:34.246867'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+    skills:
+    - agent
+  source_preview: 投了好多家，也面了好多，只有小红书走到二面，其他大厂甚至一面都没过
+- timestamp: '2026-06-09T11:57:34.611085'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+    skills:
+    - agent
+  source_preview: 我能预感到我当前的部门前景很不明朗，但我想逃却逃不掉
+- timestamp: '2026-06-09T11:59:15.140223'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+    skills:
+    - agent
+  source_preview: 我现在是 3 年经验，总包 38 万啊
+- timestamp: '2026-06-09T12:05:41.814967'
+  fields:
+    name: 连子蒙
+    occupation: 前端开发工程师
+    location: 中国大陆
+    skills:
+    - agent
+  source_preview: 不走 agent 路线，各家公司的财务业务也应该招前端吧？
